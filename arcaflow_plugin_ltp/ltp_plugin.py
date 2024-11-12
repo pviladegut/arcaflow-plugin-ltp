@@ -36,7 +36,7 @@ def run_ltp_realtime(
     """
     # print("===>> Generating job file ...")
     # result = params.to_jobfile()
-    ltp_realtime_cmd = ["/opt/ltp/testcases/run.sh",
+    ltp_realtime_cmd = ["/opt/ltp/testcases/realtime/run.sh",
                         "-t"
                         params.test_argument,
                         "-l",
